@@ -283,3 +283,92 @@ main .container .left .profile{
 .left .nortification-popup small{
   display: block;   
 }
+
+/* --------------------middle section-------------- */
+
+.middle .stories {
+    display: flex;
+    justify-content: space-between;
+    height: 12rem;
+    gap: 0.5rem;
+
+}
+
+.middle .stories .story-head{
+     width: 3rem;
+     height: 3rem;
+     align-self: right start;
+     border: 2px solid var(--color-primary);
+}
+
+.middle .stories .story{
+    padding: var(--card-padding);
+    border-radius: var(--card-border-radius);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 0.75rem;
+    width: 100%;
+    position: relative;
+    overflow: hidden; 
+    z-index: 2; 
+}
+.middle .stories .story::before{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 5rem;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.75));
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+}
+
+.middle .stories .story:nth-child(1){
+    background: url(./images/t2.jpg) 
+    no-repeat center center/cover;
+}
+.middle .stories .story:nth-child(2){
+    background: url(./images/story-2.jpg) 
+    no-repeat center center/cover;
+}
+.middle .stories .story:nth-child(3){
+    background: url(./images/story-3.jpg) 
+    no-repeat center center/cover;
+}
+.middle .stories .story:nth-child(4){
+    background: url(./images/story-4.jpg) 
+    no-repeat center center/cover;
+}
+.middle .stories .story:nth-child(5){
+    background: url(./images/story-5.jpg) 
+    no-repeat center center/cover;
+}
+.middle .stories .story:nth-child(6){
+    background: url(./images/story-6.jpg) 
+    no-repeat center center/cover;
+}
+
+/* ----------------create post-------------- */
+
+.middle .create-post{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+    background: var(--color-white);
+    padding: 0.4rem var(--card-padding);
+    border-radius: var(--card-border-radius);
+}
+
+.middle .create-post input[type="text"]{
+    justify-self: start;
+    width: 100%;
+    padding-left: 1rem;
+    background: transparent;
+    color: var(--color-dark);
+    margin-right: 1rem;
+}
