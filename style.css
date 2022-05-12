@@ -741,7 +741,7 @@ color: #fff;
         }
     }
 
-    @media screen and (max-width: 792px) {
+    @media screen and (max-width: 452px) {
         nav .search-bar{
             display: none;
         }
