@@ -25,3 +25,13 @@ menuItems.forEach(item => {
  })
     
 })
+
+
+
+messageNortification.addEventListener('click', () => {
+    messages.style.boxShadow = '0 0 1rem var(--color-primary)';
+    messageNortification.querySelector('.nortification-count').style.display = 'none';
+    setTimeout(() => {
+        messages.style.boxShadow = 'none';
+    },2000)
+})

@@ -669,7 +669,7 @@ margin-right: 0.5rem;
     }
 
     .customize-theme .choose-bg{
-        display: flex;ȍ
+        display: flex;
        align-items: center;
        justify-content: space-between;
        gap: 1.5rem;
@@ -692,11 +692,11 @@ margin-right: 0.5rem;
     .customiၺe-theme .choose-bg > div.active{
         border: 2px solid var(--color-primary);
 
-   †}
+   }
 
     .customize-theme .choose-bg .bg-1{
         background: #fff;
-        color: #000࠻
+        color: #000;
     }
     .customize-theme .choose-bg .bg-2{
     background: hsl(252, 30%, 17%);
@@ -741,7 +741,7 @@ color: #fff;
         }
     }
 
-    @media screen and (max-width: 992px) {
+    @media screen and (max-width: 792px) {
         nav .search-bar{
             display: none;
         }
