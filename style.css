@@ -138,6 +138,10 @@ transform: scale(0.92);
     color: var(--color-grey);
 }
 
+.left-header{
+    color: var(--color-primary);
+}
+
 nav .create{
     display: flex;
     align-items: center;
@@ -223,6 +227,7 @@ main .container .left .profile{
     margin-left: 1rem;
     font-size: 1rem;
     font-weight: 700;
+    color: var(--color-grey);
 }
 
 .left .sidebar .active {
